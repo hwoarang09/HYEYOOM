@@ -35,7 +35,15 @@
       background-color: #fff;
     }
   }
-
+  &--pink {
+    background-color: $color-primary-light;
+    color: $color-white;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    &::after {
+      background-color: $color-primary-light;
+    }
+  }
   &::after {
     content: "";
     display: inline-block;
